@@ -1,0 +1,2 @@
+C:/project1/smart_pay_zra/android/app/.cxx/debug/65452r3l/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/project1/smart_pay_zra/android/app/.cxx/debug/65452r3l/armeabi-v7a/CMakeFiles/rebuild_cache.dir
