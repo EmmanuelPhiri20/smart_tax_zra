@@ -1,10 +1,11 @@
 class RouteNames {
   static const String splash = '/';
+  static const String landing = '/landing';
   static const String login = '/login';
   static const String signup = '/signup';
+  static const String biometric = '/biometric';
   static const String forgotPassword = '/forgot-password';
   static const String otp = '/otp';
-  static const String biometricSetup = '/biometric-setup';
   static const String dashboard = '/dashboard';
   static const String uploadStepper = '/upload-stepper';
   static const String reviewScreen = '/review-screen';

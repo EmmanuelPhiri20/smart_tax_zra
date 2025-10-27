@@ -12,11 +12,13 @@ import 'controllers/dashboard_controller.dart';
 //import 'controllers/chat_controller.dart';
 
 // Views
+import 'views/auth/landing_page_screen.dart';
 import 'views/auth/login_screen.dart';
 import 'views/auth/signup_screen.dart';
+import 'views/auth/biometric_setup.dart';
 //import 'views/auth/forgot_password_screen.dart';
 //import 'views/auth/otp_screen.dart';
-//import 'views/auth/biometric_setup.dart';
+
 //import 'views/home/dashboard_screen.dart';
 
 
@@ -52,13 +54,14 @@ class MyApp extends StatelessWidget {
         theme: AppTheme.lightTheme,
         darkTheme: AppTheme.darkTheme,
         themeMode: ThemeMode.light,
-        initialRoute: RouteNames.login,
+        initialRoute: RouteNames.landing,
         routes: {
+          RouteNames.landing: (context) => const LandingPageScreen(),
           RouteNames.login: (context) => const LoginScreen(),
           RouteNames.signup: (context) => const SignUpScreen(),
           //RouteNames.forgotPassword: (context) => ForgotPasswordScreen(),
           //RouteNames.otp: (context) => OtpScreen(phoneNumber: ''),
-          //RouteNames.biometricSetup: (context) => BiometricSetupScreen(),
+          RouteNames.biometric: (context) => const BiometricSetupScreen(),
           RouteNames.dashboard: (context) => const DashboardScreen(),
         },
         //onGenerateRoute: (settings) {
