@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1067547731215",
+    "project_id": "smart-tax-zra",
+    "storage_bucket": "smart-tax-zra.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067547731215:android:dd10f71182f09096e48a7a",
+        "android_client_info": {
+          "package_name": "com.smartpay.zra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067547731215-om0op3bo0ifov4d3rplcgpq2qlovns9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartpay.zra",
+            "certificate_hash": "b63fb91b96e3edff70e59d3a3746311aa4b2c440"
+          }
+        },
+        {
+          "client_id": "1067547731215-l9o683bpdj0k0t02pq7eu1ljn1frd06e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeRiM6wqCSJkx9Q_oWE9OhmWpXG52lZWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067547731215-l9o683bpdj0k0t02pq7eu1ljn1frd06e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1067547731215-b6e121nd7m3kt90kka51ckbprq18n5tn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smartPayZra"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
